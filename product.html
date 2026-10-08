@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+h2 {
+  font-size: 50px; 
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Products</h2>
+<div class="cont">
+<div class="card">
+  <img src="latte.jpg" alt="Iced Coffee" style="width:100%">
+  <h1>Spanish Latte</h1>
+  <p class="price">$19.99</p>
+  <p>Bold espresso, creamy milk, and a touch of sweetness in every sip.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="americano.jpg" alt="Iced Coffee" style="width:100%">
+  <h1>Americano</h1>
+  <p class="price">$15.99</p>
+  <p>Americano is a smooth coffee made with espresso and hot water.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="frappe.jpg" alt="Iced Coffee" style="width:100%">
+  <h1>Frappe Twist</h1>
+  <p class="price">$17.99</p>
+  <p>Frappe Twist is a cool, creamy coffee with a delicious twist.</p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+</body>
+</html>
